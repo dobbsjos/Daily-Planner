@@ -73,3 +73,11 @@ body {
 .container {
     border: black;
 }
+
+.fivePm {
+    text-align: center;
+}
+
+.btn {
+    text-align: right;
+}
