@@ -70,14 +70,4 @@ body {
     transition: all .3s ease-in-out;
   }
 
-.container {
-    border: black;
-}
 
-.fivePm {
-    text-align: center;
-}
-
-.btn {
-    text-align: right;
-}
