@@ -24,21 +24,26 @@ $(document).ready(function () {
         // else if integer is > than moments.js turn green (future) 
     }
     hourCheck();
-});
 
-var saveBtn = document.querySelectorAll(".saveBtn")
-var data9am = document.querySelectorAll("#data9am").values
+
+
+var data9am = document.querySelector("#data9am").value
 
 var data9am = localStorage.getItem("nineAm");
 
-saveBtn.addEventListener("click", function() {
-    data9am.textContent = nineAm
-    localStorage.setItem("nineAm", data9am)
-
-    if (textContent) {
-        textContentNineAm.values = textContent
-    } else {
-        textContentNineAm.values = "";
-    }
-
+document.querySelectorAll('.saveBtn').forEach(item => {
+    item.addEventListener('click', event => {
+      //handle click
+      console.log("clicked another one");
+      //find the nearest input and get the value
+    })
 })
+    // data9am.textContent = nineAm
+    // localStorage.setItem("nineAm", data9am)
+
+    // if (textContent) {
+    //     textContentNineAm.values = textContent
+    // } else {
+    //     textContentNineAm.values = "";
+    // }
+});//end of ready function
